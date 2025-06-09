@@ -7,8 +7,8 @@ def verificar(alternativas, eleccion):
 
     # generar lógica para determinar respuestas correctas
     ##########################################################################################
-    pass
     
+    correcto = (alternativas[eleccion][1] == 1)
     
     
     

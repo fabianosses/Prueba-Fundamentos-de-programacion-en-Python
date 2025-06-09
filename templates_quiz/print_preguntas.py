@@ -4,7 +4,9 @@ def print_pregunta(enunciado, alternativas):
     
     # Imprimir enunciado y alternativas
     ###############################################################
-    pass
+    print(f"{enunciado[0]}")
+    for letra, alternativa in alternativas.items():
+        print(f'{letra}. {alternativa}')
     
     
     
