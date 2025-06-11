@@ -33,9 +33,10 @@ opcion = validate(['0', '1'], opcion)
 
 # 2. Definir el comportamiento de Salir
 if opcion == '0':
-    print()
+    print("buuu, que fome, adios")
     time.sleep(2)
     os.system(op_sys)
+    exit()
     # finalizar programa
     
 # Funcionamiento de preguntas
@@ -55,7 +56,7 @@ while correcto and n_pregunta < 3*int(p_level):
         # 5. Escoger el enunciado y las alternativas de una pregunta según el nivel escogido
         enunciado, alternativas = choose_q(nivel)
         #6. Imprimir el enunciado y sus alternativas en pantalla
-        
+        print(enunciado, alternativas)
         
         respuesta = input('Escoja la alternativa correcta (a, b, c, d):\n> ').lower()
         # 7. Validar la respuesta entregada

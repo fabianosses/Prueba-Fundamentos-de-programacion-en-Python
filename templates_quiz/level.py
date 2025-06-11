@@ -3,13 +3,12 @@ def choose_level(n_pregunta, p_level):
     # Construir lógica para escoger el nivel
     ##################################################
     if n_pregunta <= int(p_level):
-      return 'basicas'
+      level = 'basicas'
     elif n_pregunta <= 2 * p_level:
-      return 'intermedias'
+      level = 'intermedias'
     else:
-      return 'avanzadas'  
+      level = 'avanzadas'  
     ##################################################
-    
     return level
 
 if __name__ == '__main__':
